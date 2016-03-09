@@ -9,13 +9,13 @@ if (env === 'production') {
 } else {
 	sequelize = new Sequelize(undefined, undefined, undefined, {
 		'dialect': 'sqlite',
-		'storage': __dirname + '/data/imgur.sqlite'
+		'storage': __dirname + '/data/image-search.sqlite'
 	});
 }
 
 var db = {};
 
-db.imgur = sequelize.import(__dirname + '/models/imgur.js');
+db.imageSearch = sequelize.import(__dirname + '/models/image-search.js');
 
 db.sequelize = sequelize;
 db.Sequelize = Sequelize;

@@ -1,4 +1,4 @@
-This is an abstraction layer for the Imgur API. The search values are stored into a database for ease of organization.
+This is an abstraction layer for the Bing API. The search values are stored into a database for ease of organization.
 
 This project was created according to FreeCodeCamp guidelines. Visit my profile at FreeCodeCamp.com/jhi5. 
 
